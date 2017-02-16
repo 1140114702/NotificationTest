@@ -11,6 +11,7 @@
     tools:context="com.example.zhou.notificationtest.NotificationActivity">
 
     <TextView
+        android:id="@+id/test"
         android:textSize="24sp"
         android:layout_centerInParent="true"
         android:text="这是通知的布局"
