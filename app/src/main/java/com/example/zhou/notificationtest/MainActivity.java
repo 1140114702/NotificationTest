@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
                         .setContentTitle("这是一条通知标题")
                         .setContentText("通知的内容，这是内容！")
                         .setWhen(System.currentTimeMillis())
-                        .setSmallIcon(R.mipmap.image)//状态栏的图标
-                        .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.image))//下拉看到的图标
+                        .setSmallIcon(R.mipmap.ic_launcher)//状态栏的图标
+                        .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))//下拉看到的图标
                         .setContentIntent(pendingIntent)
                         .setAutoCancel(true)//点击通知的时候在通知栏消失此通知
 //                        .setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION))//播放系统声音
